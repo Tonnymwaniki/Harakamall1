@@ -19,9 +19,8 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 import androidx.navigation.compose.rememberNavController
-import com.chula.harakamall.R
 import com.chula.harakamall.navigation.ROUT_START
-
+import com.chula.harakamall.R
 @Composable
 fun HomeScreen(navController: NavController){
 
