@@ -1,5 +1,6 @@
 package com.chula.harakamall.navigation
 
+import android.app.Service
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
@@ -7,17 +8,22 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.chula.harakamall.ui.screens.about.AboutScreen
+import com.chula.harakamall.ui.screens.commerce.CommerceScreen
 import com.chula.harakamall.ui.screens.dashboard.DashboardScreen
+import com.chula.harakamall.ui.screens.form.FormScreen
+import com.chula.harakamall.ui.screens.grocery.GroceryScreen
 import com.chula.harakamall.ui.screens.home.HomeScreen
 import com.chula.harakamall.ui.screens.intent.IntentScreen
 import com.chula.harakamall.ui.screens.item.ItemScreen
+import com.chula.harakamall.ui.screens.service.ServiceScreen
+import com.chula.harakamall.ui.screens.splash.SplashScreen
 import com.chula.harakamall.ui.screens.start.StartScreen
 
 @Composable
 fun AppNavHost(
     modifier: Modifier = Modifier,
     navController: NavHostController = rememberNavController(),
-    startDestination: String = ROUT_DASHBOARD
+    startDestination: String = ROUT_SPLASH
 ) {
 
     NavHost(
@@ -45,6 +51,32 @@ fun AppNavHost(
         composable(ROUT_DASHBOARD) {
             DashboardScreen(navController)
         }
+        composable(ROUT_SERVICE) {
+            ServiceScreen(navController)
+        }
+
+        composable(ROUT_SPLASH) {
+            SplashScreen(navController)
+        }
+
+        composable(ROUT_COMMERCE) {
+            CommerceScreen(navController)
+        }
+
+        composable(ROUT_FORM) {
+            FormScreen(navController)
+        }
+
+        composable(ROUT_GROCERY) {
+            GroceryScreen(navController)
+        }
+
+
     }
+}
+
+@Composable
+fun SamanthaScreen(x0: NavHostController) {
+    TODO("Not yet implemented")
 }
 
