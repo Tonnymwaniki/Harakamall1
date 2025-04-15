@@ -12,3 +12,6 @@ const val ROUT_SPLASH = "splash"
 const val ROUT_COMMERCE = "commerce"
 const val ROUT_FORM = "form"
 const val ROUT_GROCERY = "grocery"
+//auth
+const val ROUT_REGISTER = "Register"
+const val ROUT_LOGIN = "Login"
