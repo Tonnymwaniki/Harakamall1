@@ -4,7 +4,7 @@
     <selectionStates>
       <SelectionState runConfigName="HarakaMall1.app">
         <option name="selectionMode" value="DROPDOWN" />
-        <DropdownSelection timestamp="2025-04-09T08:41:04.626061721Z">
+        <DropdownSelection timestamp="2025-04-16T08:31:58.500691297Z">
           <Target type="DEFAULT_BOOT">
             <handle>
               <DeviceId pluginId="PhysicalDevice" identifier="serial=V8ZLDYJBQWA6IZS8" />

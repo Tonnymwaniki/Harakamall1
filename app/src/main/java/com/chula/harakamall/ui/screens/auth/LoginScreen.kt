@@ -1,6 +1,6 @@
 package com.chula.harakamall.ui.screens.auth
 
-import android.widget.Toast
+import  android.widget.Toast
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.core.tween
 import androidx.compose.animation.fadeIn
